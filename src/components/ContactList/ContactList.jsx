@@ -3,7 +3,7 @@ import Contact from '../Contact/Contact';
 import { useSelector } from 'react-redux';
 // import { selectContacts } from '../../redux/contactsSlice';
 // import { selectNameFilter } from '../../redux/filtersSlice';
-import { selectFilteredContacts } from '../../redux/contactsOps';
+import { selectFilteredContacts } from '../../redux/contactsSlice';
 // import { deleteContact } from '../../redux/contactsOps';
 
 export default function ContactList() {
