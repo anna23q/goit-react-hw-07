@@ -10,7 +10,7 @@ import {
   selectContacts,
   selectLoading,
   selectError,
-} from '../../redux/contactsOps';
+} from '../../redux/contactsSlice';
 
 export default function App() {
   const dispatch = useDispatch();
